@@ -98,11 +98,11 @@ function playBackSequence() {
 			buttonRed.style.opacity = "1";
 			buttonYellow.style.opacity = "1";
 			buttonBlue.style.opacity = "1";
-		}, 350);//750
+		}, 750);//750
 		if (tempCurrentIndex > sequence.length) {
 			clearInterval();
 		}
-	}, 400);//800
+	}, 800);//800
 	currentIndex = 0;
   	tempCurrentIndex = 0;
 }
