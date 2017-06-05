@@ -102,7 +102,7 @@ function playBackSequence() {
 		if (tempCurrentIndex > sequence.length) {
 			clearInterval();
 		}
-	}, 800);//800
+	}, 900);//800
 	currentIndex = 0;
   	tempCurrentIndex = 0;
 }
