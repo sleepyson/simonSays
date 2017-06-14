@@ -2,6 +2,10 @@
 
 body {}
 
+header {
+	text-align: center;
+}
+
 #pageContainer {
  display: block;
  position: relative;
@@ -11,8 +15,32 @@ body {}
  width: 100%;
 }
 
+#tillbaka {
+	font-size: 20px;
+}
 
-/*------------------------------------------------------*/
+/*-------------------------------------------------------*/
+
+/*Documentation & Frontpage -----------------------------*/
+
+.frontAndDocumentation {
+	display: block;
+	margin: auto;
+	max-width: 720px;
+	width: 100%;
+	height: 100%;
+}
+
+#picOfMe {
+	float: right;
+	margin-left: 20px;
+}
+
+#aboutMeText {
+	text-align: justify;
+}
+
+/*-------------------------------------------------------*/
 
 
 /*Button Styles -----------------------------------------*/
